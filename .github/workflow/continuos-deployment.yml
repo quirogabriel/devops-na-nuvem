@@ -46,7 +46,7 @@ jobs:
         uses: actions/checkout@v6
         with:
           repository: quirogabriel/dvn-workshop-gitops
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Kustomize Edit Image
         env:
