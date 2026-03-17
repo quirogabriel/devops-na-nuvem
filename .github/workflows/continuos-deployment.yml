@@ -58,3 +58,4 @@ jobs:
           git add ./kustomization.yml
           git commit -m "[BOT] Change backend image to $REGISTRY/$BACKEND_ECR_REPOSITORY:$IMAGE_TAG"
           git push
+          
